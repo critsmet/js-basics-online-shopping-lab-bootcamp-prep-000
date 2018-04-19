@@ -63,7 +63,7 @@ function viewCart() {
 function total(){
     var sum = 0;
     cart.forEach (function(item){
-      
+    sum += item.itemPrice
     })
   return sum 
 }
