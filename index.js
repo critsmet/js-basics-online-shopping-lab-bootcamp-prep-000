@@ -61,7 +61,9 @@ function viewCart() {
 */
 
 function total(){
-    cart.forEach (function)
+    cart.forEach (function(item){
+    var sum = 0;
+    })
     (let i = 0; i < prices.length; i++)
     sum += prices[i]
   return sum 
