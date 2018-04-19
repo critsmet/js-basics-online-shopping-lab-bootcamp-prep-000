@@ -60,14 +60,6 @@ function viewCart() {
   console.log(`In your cart, you have ${itemsAndPrices.join(', ')}.`);
 */
 
-var prices = []; 
-
-function pricesOfCartItems() { 
-  for (let i = 0; i < cart.length; i++);
-  prices.push(Object.values(cart)[i]);
-  return prices
-}
-
 function total(){
     pricesOfCartItems()
     var sum = 0;
