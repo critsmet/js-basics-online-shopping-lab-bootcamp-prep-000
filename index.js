@@ -62,14 +62,14 @@ function viewCart() {
 
 var prices = []; 
 
-function prices() { 
+function pricesOfCart() { 
   for (let i = 0; i < cart.length; i++);
   prices.push(cart.values[i]);
   return prices
 }
 
 function total(){
-    prices()
+    pricesOfCart()
     var sum = 0;
     for (let i = 0; i < prices.length; i++)
     sum += prices[i]
