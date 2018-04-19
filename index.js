@@ -64,7 +64,7 @@ var prices = [];
 
 function pricesOfCartItems() { 
   for (let i = 0; i < cart.length; i++);
-  prices.push(cart.values[i]);
+  prices.push(Object.values(cart)[i]);
   return prices
 }
 
